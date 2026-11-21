@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hồ sơ cá nhân - Nguyễn Nguyễn Thành Sang</title>
+</head>
+<body style="font-family: 'Times New Roman', Times, serif;">
+
+    <h1>HỒ SƠ CÁ NHÂN</h1>
+    <p><em>Thông tin học tập, sở thích và hoạt động của tôi</em></p>
+
+    <hr>
+
+    <main>
+        <h2>01. Vài nét về tôi</h2>
+        <p><strong>Nguyễn Nguyễn Thành Sang</strong></p>
+        <p><strong>Mã số sinh viên:</strong> 52.01.104.088</p>
+        <blockquote>
+            Tôi hiện là sinh viên năm nhất ngành Công nghệ thông tin.
+            Tôi yêu thích việc tìm hiểu công nghệ, sáng tạo hình ảnh và rèn luyện thể chất.
+            Ngoài thời gian học ở trường, tôi còn làm công việc huấn luyện viên cá nhân.
+        </blockquote>
+
+        <hr>
+
+        <h2>02. Thông tin cá nhân</h2>
+        <dl>
+            <dt><strong>Email</strong></dt>
+            <dd><a href="mailto:tsang4122@gmail.com">tsang4122@gmail.com</a></dd>
+
+            <dt><strong>Điện thoại</strong></dt>
+            <dd>0965559412</dd>
+
+            <dt><strong>Nơi ở</strong></dt>
+            <dd>929 Phạm Văn Đồng, Linh Xuân, Thủ Đức, Hồ Chí Minh</dd>
+        </dl>
+
+        <hr>
+
+        <h2>03. Học tập và sở thích</h2>
+        <p>Hiện tại, tôi đang tập trung học tập và phát triển những lĩnh vực mình quan tâm:</p>
+        <ol>
+            <li>
+                <strong>Công nghệ thông tin:</strong>
+                Tìm hiểu lập trình và cách xây dựng các sản phẩm phần mềm.
+            </li>
+            <li>
+                <strong>Thiết kế đồ họa:</strong>
+                Thực hành sáng tạo hình ảnh và sắp xếp bố cục.
+            </li>
+            <li>
+                <strong>Thể hình:</strong>
+                Tập gym để duy trì sức khỏe và nâng cao kiến thức tập luyện.
+            </li>
+        </ol>
+
+        <hr>
+
+        <h2>04. Công việc ngoài giờ - Personal Trainer</h2>
+        <p>
+            Bên cạnh việc học, tôi có 3 năm kinh nghiệm làm huấn luyện viên cá nhân
+            (Personal Trainer) và đã hướng dẫn hơn 10 học viên.
+        </p>
+
+        <table border="1" cellpadding="6" cellspacing="0">
+            <caption><strong>Tóm tắt kinh nghiệm</strong></caption>
+            <tr>
+                <th>Nội dung</th>
+                <th>Thông tin</th>
+            </tr>
+            <tr>
+                <td>Thời gian kinh nghiệm</td>
+                <td>3 năm</td>
+            </tr>
+            <tr>
+                <td>Số học viên đã hướng dẫn</td>
+                <td>Trên 10 học viên</td>
+            </tr>
+            <tr>
+                <td>Giáo án tập luyện</td>
+                <td>Cá nhân hóa theo mục tiêu và thể trạng</td>
+            </tr>
+            <tr>
+                <td>Kế hoạch dinh dưỡng</td>
+                <td>Xây dựng meal plan phù hợp với học viên</td>
+            </tr>
+        </table>
+
+        <p><strong>Những việc tôi có thể hỗ trợ học viên:</strong></p>
+        <ul>
+            <li>Lập kế hoạch tập luyện theo mục tiêu cá nhân.</li>
+            <li>Hướng dẫn kỹ thuật và điều chỉnh tư thế khi tập.</li>
+            <li>Thiết kế kế hoạch ăn uống hỗ trợ quá trình tập luyện.</li>
+        </ul>
+
+        <hr>
+
+        <h2>05. Kết nối với tôi</h2>
+        <p>
+            GitHub:
+            <a href="https://github.com/tsang4122/Tsang.git" target="_blank">
+                github.com/tsang4122/Tsang
+            </a>
+        </p>
+        <p>
+            Facebook:
+            <a href="https://www.facebook.com/share/1JCtPzwiuB/" target="_blank">
+                Trang Facebook cá nhân
+            </a>
+        </p>
+
+        <hr>
+
+        <h2>06. Gửi lời nhắn</h2>
+        <form action="#" method="post">
+            <p>
+                <label for="hoten">Tên của bạn:</label><br>
+                <input type="text" id="hoten" name="hoten" required>
+            </p>
+
+            <p>
+                <label for="email">Địa chỉ email:</label><br>
+                <input type="email" id="email" name="email" required>
+            </p>
+
+            <p>
+                <label for="loinhan">Nội dung lời nhắn:</label><br>
+                <textarea id="loinhan" name="loinhan" rows="4" cols="40" required></textarea>
+            </p>
+
+            <input type="submit" value="Gửi lời nhắn">
+        </form>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>Trang cá nhân của Nguyễn Nguyễn Thành Sang - 2026</p>
+    </footer>
+
+</body>
+</html>
